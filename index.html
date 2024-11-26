@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="./bmw.jpg" type="image/x-icon">
+     <style>
+          @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+          body {
+               font-family: "Poppins", sans-serif;
+               margin: 0;
+               height: 100vh;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               text-align: center;
+          }
+
+          .box {
+               display: flex;
+               gap: 10px;
+               align-items: center;
+          }
+          .input {
+               font-family: inherit;
+          }
+
+          .caption {
+               border: 1px solid #333;
+               padding: 20px 10px;
+               font-size: 30px;
+               background-color: blueviolet;
+               color: white;
+               font-weight: 500;
+          }
+          img {
+               object-fit: cover;
+          }
+
+          ul,
+          ol {
+               list-style: none;
+               padding: 0;
+          }
+
+          button {
+               font-size: 25px;
+               cursor: pointer;
+          }
+
+
+          .wrapper {
+               background-color: aliceblue;
+          }
+
+          input {
+               border: 0;
+          }
+
+          input:focus {
+               outline: none;
+          }
+     </style>
+     <title>5-oy 4-dars vazifa</title>
+</head>
+<body>
+     <!--  11.Shaharlar ro'yxatini yaratish va filtrlash -->
+     <!-- <div class="wrapper">
+          <input type="text" id="cityInput" placeholder="Shaharni qidiring">
+ <ul id="cityList">
+ <li>Toshkent</li>
+ <li>Samarqand</li>
+ <li>Buxoro</li>
+ <li>Andijon</li>
+ <li>Namangan</li>
+ </ul>
+     </div> -->
+
+
+     <!-- 12.Slider (Karusel) Qurish -->
+      <!-- <div class="wrapper">
+          <p>Image - 1/10</p>
+          <img src="https://picsum.photos/id/1/1200" alt="" width="800" height="400">
+          <div>
+               <button id="backward">&lt;</button>
+               <button id="forward">&gt;</button>
+          </div>
+      </div> -->
+
+
+     <!-- 13.✍Matnni Belgilang va O'zgartiring -->
+      <!-- <div class="wrapper">
+          <p id="paragraph">
+               Bu matnning qaysidir qismini tanlash va sti
+               lini o'zgartirish mumkin.
+          </p>
+          <button id="boldButton">Matnni Qalin qilish</button>
+      </div> -->
+
+
+      <!-- 15.Foydalanuvchi Kiritgan Raqamlar Orasidagi Juft Raqamlarni Ko'rsatish -->
+       <!-- <div class="wrapper">
+          <input type="text" 
+          id="numbersInput" 
+          placeholder="Raqamlarni kiriting (vergul bilan ajrating)"/> <br>
+           <button id="showEvens">Juft raqamlarni ko'rsat</button>
+           <p id="evensOutput"></p>
+       </div> -->
+
+
+       <!--  16. Oddiy Kalkulyator -->
+         <!-- <div class="wrapper">
+          <input type="number" id="num1" placeholder="1-son">
+          <input type="number" id="num2" placeholder="2-son">
+          <br>
+          <button id="add">Qo'shish</button>
+          <button id="subtract">Ayirish</button>
+          <button id="multiply">Ko'paytirish</button>
+          <button id="divide">Bo'lish</button>
+          <p id="result"></p>
+         </div> -->
+
+
+         <!-- 17. Slayder Bilan Matn Hajmini O'zgartirish -->
+         <!-- <div class = "wrapper">
+          <h2>Matn Hajmini O'zgartirish</h2>
+          <p id="resizableText">Bu matn hajmi o'zgarishi mumkin!</p>
+          <label for="fontSizeSlider">Matn hajmini tanlang:</label>
+          <input type="range" id="fontSizeSlider" min="10" max="100" value="16">
+         </div> -->
+      
+
+         <!--  18.Ko'rsatmalar Tugmasi (Accordion) -->
+           <!-- <div class="wrapper">
+               <button id="toggleInstructions">Ko'rsatmalarni ko'rsat/yashir
+               </button>
+               <div id="instructions" style="display: none;">
+               <p>Bu yerda ko'rsatmalar yoziladi.</p>
+               </div>
+           </div> -->
+
+
+         <!--  19.Tab Menu (Oynalar O'rtasida O'tish) -->
+         <!-- <div class="wrapper">
+          <button class="tabButton" data-target="tab1">Tab 1</button> <br>
+          <button class="tabButton" data-target="tab2">Tab 2</button> <br>
+          <button class="tabButton" data-target="tab3">Tab 3</button> 
+         </div> 
+          <div id="tab1" class="tabContent">Bu Tab 1 mazmuni.</div>
+          <div id="tab2" class="tabContent" style="display: none;">Bu Tab 2 mazmuni.</div>
+          <div id="tab3" class="tabContent" style="display: none;">Bu Tab 3 mazmuni.</div> -->
+
+
+         <!--  20.Tugmalar Bilan Matn Rangi Va Fonini O'zgartirish -->
+           <!-- <div class="wrapper">
+               <p id="coloredText">Matn va fon rangini o'zgartir!</p>
+               <button id="changeTextColor">Matn rangini o'zgartir</button>
+               <button id="changeBgColor">Fon rangini o'zgartir</button>
+           </div> -->
+
+         <!--  21.Shartli Matn Ko'rsatish -->
+           <div class="wrapper">
+               <input type="number" id="numberInput" placeholder="Raqam kiriting">
+               <button id="checkNumber">Tekshirish</button>
+               <p id="numberOutput"></p>
+           </div>
+     <script src="./index.js"></script>
+</body>
+</html>
